@@ -5,20 +5,17 @@
 layout: default
 ---
 
-Study | Work
+
 --- | --- | ---
-Tutorials | How-to Guides
-Explanation | Reference
- 
-[![image-text](/pics/aqa-logo.jpg)](https://adoptium.net/aqavit/)
-[![image-text](/pics/aqa-logo.jpg)](https://adoptium.net/aqavit/)
-[![image-text](/pics/aqa-logo.jpg)](https://adoptium.net/aqavit/)
-[![image-text](/pics/aqa-logo.jpg)](https://adoptium.net/aqavit/)
+[![Tutorials](/pics/tutorials.png)](/pages/aqa-tutorials)| [![How-To Guides](/pics/howto-guides.png)](/pages/aqa-howto)
+[![Explanation](/pics/explanation.png)](/pages/aqa-explanation) | [![Reference](/pics/reference.png)](/pages/aqa-reference)
 
-### Links
 
-[More about AQAvit](/aqa.markdown)
 
-[Details](/pages/aqa-reference.markdown)
+
+
+
+
+
  
  
