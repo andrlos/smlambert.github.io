@@ -1,3 +1,2 @@
-Sample Github Pages
 
-Publish
+smlambert.github.io
