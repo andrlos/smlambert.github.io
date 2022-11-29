@@ -7,32 +7,30 @@ layout: default
 
 ## How-To Guides
 
-Derived from a series of AQAvit Lightning talks, here is a set of how-to guides:
+Derived from a series of AQAvit Lightning talks, here is a set of how-to guides organized by which of the 3 layers of AQAvit automation the instructions reside in:
 
-### TKG
-- How to run tests locally?  
-- How to reduce test compilation time leveraging DYNAMIC_COMPILE?
-- How to overlay other vendor tests for execution?
+| How-to Guide | TKG | CI Layer: Jenkins | CI Layer: Github actions | TRSS |
+| --- | --- | --- | --- | --- |
+| Run tests |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Reduce test compilation time |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Overlay other vendor tests |   :heavy_check_mark:  |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Rerun a test |  :heavy_check_mark:   |   :heavy_check_mark:  |  :heavy_check_mark:   |     |
+| Rerun a test on the same machine |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Rerun only failed targets |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Rerun a test with different options |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| See disabled test targets |   :heavy_check_mark:  |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Run a disabled test target |   :heavy_check_mark:  |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Run a subset of system tests (system_custom) |   :heavy_check_mark:  |  :heavy_check_mark:   |   :heavy_check_mark:  |     |
+| Run a subset of jdk tests (jdk_custom, lang_custom, hotspot_custom) |     |     |     |     |
+| Run a new type of external tests (external_custom)| :heavy_check_mark:    |  :heavy_check_mark:   |     |     |
+| See if a test failure is intermittent | :heavy_check_mark:  |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |
+| Run tests in a Github workflow |     |     |   :heavy_check_mark:  |     |
+| See all test results in a given build pipeline |     |     |     |  :heavy_check_mark:   |
+| Use TRSS to generate a release summary report |     |     |     |  :heavy_check_mark:   |
+| Triage a build pipeline: Deep history |     |     |     |  :heavy_check_mark:   |
+| Triage a build pipeline: All platforms |     |     |     |   :heavy_check_mark:  |
+| Triage a build pipeline: Possible issues |     |     |     |  :heavy_check_mark:   |
+| Triage a build pipeline: Jenkins link |     |     |     |  :heavy_check_mark:   |
+| Triage a build pipeline: Create new issue |     |     |     |  :heavy_check_mark:   |
 
-### CI Layer: Jenkins 
-- How to rerun a test in a Grinder in Jenkins?
-  - rerun on the same machine?
-  - rerun only the failed targets?
-  - rerun a test with different options?
-- How to see if test targets are disabled?
-- How to run a disabled test target?
-- How to run a subset of tests from a particular test target?
-  - system_custom?
-  - jdk_custom, lang_custom, hotspot_custom?
-  - external_custom?
-- How to check if a test failure is intermittent?
 
-### TRSS
-- How to see all tests running in a particular build pipeline?
-- How to use TRSS to triage a build pipeline?
-  - Deep history
-  - All platforms
-  - Possible issues
-  - Jenkins link
-  - Create new issue
-- How to generate a release summary report?
