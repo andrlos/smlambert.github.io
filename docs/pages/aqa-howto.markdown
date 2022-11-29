@@ -11,7 +11,7 @@ Derived from a series of AQAvit Lightning talks, here is a set of how-to guides 
 
 | How-to Guides | TKG | CI Layer: Jenkins | CI Layer: Github actions | TRSS |
 | --- | --- | --- | --- | --- |
-| Run tests |  ✓   |  ✓   |  ✓   |     |
+| Run tests |  [U+1F517](#run-tests-locally)   |  ✓   |  ✓   |     |
 | Reduce test compilation time |  ✓   |  ✓   |  ✓   |     |
 | Overlay other vendor tests |   ✓  |  ✓   |  ✓   |     |
 | Rerun a test |  ✓   |   ✓  |  ✓   |     |
@@ -33,4 +33,10 @@ Derived from a series of AQAvit Lightning talks, here is a set of how-to guides 
 | Triage a build pipeline: Jenkins link |     |     |     |  ✓   |
 | Triage a build pipeline: Create new issue |     |     |     |  ✓   |
 
+
+## [Run tests](#run-tests)
+[Run tests](#run-tests2)
+
+### [Run tests locally](#run-tests-locally)
+Instructions to run locally
 
