@@ -9,9 +9,9 @@ layout: default
 
 Derived from a series of AQAvit Lightning talks, here is a set of how-to guides organized by which of the 3 layers of AQAvit automation the instructions reside in:
 
-| How-to Guide | TKG | CI Layer: Jenkins | CI Layer: Github actions | TRSS |
+| How-to Guides | TKG | CI Layer: Jenkins | CI Layer: Github actions | TRSS |
 | --- | --- | --- | --- | --- |
-| Run tests |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
+| Run tests |  ✓   |  ✓   |  ✓   |     |
 | Reduce test compilation time |  :heavy_check_mark:   |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
 | Overlay other vendor tests |   :heavy_check_mark:  |  :heavy_check_mark:   |  :heavy_check_mark:   |     |
 | Rerun a test |  :heavy_check_mark:   |   :heavy_check_mark:  |  :heavy_check_mark:   |     |
