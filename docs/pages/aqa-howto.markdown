@@ -11,7 +11,7 @@ Derived from a series of AQAvit Lightning talks, here is a set of how-to guides 
 
 | How-to Guides | TKG | CI Layer: Jenkins | CI Layer: Github actions | TRSS |
 | --- | --- | --- | --- | --- |
-| Run tests |  [🔗](#run-tests-locally)  |  [🔗](#run-tests-in-a-jenkins-job)  |  [🔗](#run-tests-in-a-github-workflow) | |
+| Run tests |  [🔗](/pages/howto-details#run-tests-locally)  |  [🔗](/pages/howto-details#run-tests-in-a-jenkins-job)  |  [🔗](/pages/howto-details#run-tests-in-a-github-workflow) | |
 | Reduce test compilation time |  ✓   |  ✓   |  ✓   |     |
 | Overlay other vendor tests |   ✓  |  ✓   |  ✓   |     |
 | Rerun a test |  ✓   |   ✓  |  ✓   |     |
@@ -33,15 +33,4 @@ Derived from a series of AQAvit Lightning talks, here is a set of how-to guides 
 | Triage a build pipeline: Jenkins link |     |     |     |  ✓   |
 | Triage a build pipeline: Create new issue |     |     |     |  ✓   |
 
-
-## Run tests
-
-### Run tests locally
-Instructions to run locally
-
-### Run tests in a Jenkins job
-Running in a Grinder
-
-### Run tests in a Github workflow
-Running in a Github workflow
 
