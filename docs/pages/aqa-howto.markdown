@@ -32,6 +32,7 @@ Derived from a series of AQAvit Lightning talks, here is a set of how-to guides 
 | Triage a build pipeline: Possible issues |     |     |     |  🔗   |
 | Triage a build pipeline: Jenkins link |     |     |     |  🔗   |
 | Triage a build pipeline: Create new issue |     |     |     |  🔗   |
+| Contribute a new test suite |     |     |     |  🔗   |
 
 
 ---
