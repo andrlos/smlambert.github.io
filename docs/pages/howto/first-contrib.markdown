@@ -40,4 +40,8 @@ The documentation in the grinder configurator is pretty descriptive, so lets jus
 | KEEP_WORKSPACE | after testrun the workspace is saved for a while for the developer to check it |
 | ARCHIVE_TEST_RESULTS | after testrun the test results are by default discarded for passing tests, check for keeping them |
 
-It is advised to check KEEP_WORKSPACE and ARCHIVE_TEST_RESULTS checkboxes for debuggin purposes. Adoptium infrastructure by default does not keep workspaces at all and results in case the tests were successful. In some cases runs can report as successful when it is not even executed, therefore nothing had a chance of failing there. It is a good practice to not only check that the test finishes "green" but also that the tests that were supposed to run actually did.
+It is advised to check KEEP_WORKSPACE and ARCHIVE_TEST_RESULTS checkboxes for debuggin purposes. Adoptium infrastructure by default does not keep workspaces at all and results in case the tests were         successful. In some cases runs can report as successful when it is not even executed, therefore nothing had a chance of failing there. It is a good practice to not only check that the test finishes         "green" but also that the tests that were supposed to run actually did.
+
+5. Final step is creating a ***pull request*** for your hard work into main branch.. don't forget to ***link the original issue*** and a ***passing grinder run*** as well.
+
+   ***Happy Hacking! :-)***
